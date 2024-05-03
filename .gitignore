@@ -1,0 +1,6 @@
+.direnv/
+
+.ipynb_checkpoints/
+.jupyter/
+
+.env
