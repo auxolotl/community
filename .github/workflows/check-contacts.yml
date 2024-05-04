@@ -17,5 +17,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Set up Nix
+        uses: cachix/install-nix-action@v12
+
       - name: Check users list
         run: nix-instantiate --eval checks/one-contacts.nix
