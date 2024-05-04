@@ -6,7 +6,7 @@
     imadnyc = { forum = "imadnyc"; github = "imadnyc"; };
     liketechnik = { forum = "liketechnik"; github = "liketechnik"; };
     nova = { forum = "nova"; github = "novamacintyre"; };
-    "don.dfh" = { forum = "don.dfh"; github = "dantefromhell"; };
+    dfh = { forum = "dfh"; github = "dantefromhell"; };
     c8h4 = { forum = "c8h4"; github = "cristoph-heiss"; };
     "8bitbuddhist" = { forum = "8bitbuddhist"; github = "8bitbuddhist"; };
     coded = { forum = "coded"; github = "thecodedprof"; };

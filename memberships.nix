@@ -16,7 +16,7 @@ in [
             users.trespaul
             users.imadnyc
             users.aprl
-            users."don.dfh"
+            users.dfh
             users.vera
             users.nova
             users.blue
