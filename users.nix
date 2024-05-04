@@ -171,9 +171,19 @@
     forum = "aria";
     github = "tcmal";
   };
-  ircurry = { forum = "ircurry"; };
-  aprl = { forum = "aprl"; };
-  deivpaukst = { forum = "deivpaukst"; };
-  tau = { forum = "tau"; };
-  srestegosaurio = { forum = "srestegosaurio"; };
+  ircurry = {
+    forum = "ircurry";
+  };
+  aprl = {
+    forum = "aprl";
+  };
+  deivpaukst = {
+    forum = "deivpaukst";
+  };
+  tau = {
+    forum = "tau";
+  };
+  srestegosaurio = {
+    forum = "srestegosaurio";
+  };
 }
