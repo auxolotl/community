@@ -1,5 +1,5 @@
 let
-  lib = (import <nixpkgs> {}).lib;
+  lib = (import <nixpkgs> { }).lib;
 
   inherit (lib.lists) length any;
   inherit (lib.attrsets) filterAttrs attrValues mapAttrs;
@@ -29,5 +29,4 @@ let
 
   # invert argument for readability
   pass = !errors;
-in
-  assert pass; "PASS"
+in assert pass; "PASS"
