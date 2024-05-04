@@ -1,0 +1,21 @@
+name: "Check that users contatains at least 1 point of contact"
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'users.nix'
+  pull_request_target:
+    paths:
+      - 'users.nix'
+
+jobs:
+  check-contacts:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check users list
+        run: nix-instantiate --eval checks/one-contacts.nix

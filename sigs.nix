@@ -1,6 +1,6 @@
 {
-    documentation = {
-        forum = "admins";
-        github = "sig-documentation";
-    };
+  documentation = {
+    forum = "admins";
+    github = "sig-documentation";
+  };
 }
