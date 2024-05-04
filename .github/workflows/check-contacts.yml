@@ -10,7 +10,7 @@ on:
       - 'users.nix'
 
 jobs:
-  nixos:
+  check-contacts:
     runs-on: ubuntu-latest
 
     steps:
