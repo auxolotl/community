@@ -1,4 +1,2 @@
-{ mkShell, python3, ... }:
-mkShell {
-  packages = [ (python3.withPackages (pyPkgs: [ pyPkgs.pydiscourse ])) ];
-}
+{ mkShellNoCC, python3, ... }:
+mkShellNoCC { packages = [ (python3.withPackages (pyPkgs: [ pyPkgs.pydiscourse ])) ]; }
