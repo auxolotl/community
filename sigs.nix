@@ -6,4 +6,11 @@
     };
     github = "sig-documentation";
   };
+  rust = {
+    forum = {
+      owners = "sig_rs_owners";
+      name = "sig_rust";
+    };
+    github = "sig-rust";
+  };
 }

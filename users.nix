@@ -186,4 +186,12 @@
   srestegosaurio = {
     forum = "srestegosaurio";
   };
+  austreelis = {
+    forum = "austreelis";
+    github = "Austreelis";
+  };
+  jalil = {
+    forum = "jalil";
+    github = "jalil-salame";
+  };
 }
