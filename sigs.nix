@@ -1,6 +1,6 @@
 {
   documentation = {
-    forum = "admins";
+    forum.name = "admins";
     github = "sig-documentation";
   };
 }

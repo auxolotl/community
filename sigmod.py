@@ -33,7 +33,7 @@ def reconcile_forum_accounts():
     forum_client = pydiscourse.DiscourseClient(api_key=forum_api_key, host=forum_base_url, api_username=forum_api_username)
 
     for sig in sigs:
-        group_name = sig["sig"]["forum"]
+        group_name = sig["sig"]["forum"]["name"]
         group_id = forum_client.group(group_name)["group"]["id"]
 
         should_be = extract_accounts("forum", sig["leaders"], sig["members"])
