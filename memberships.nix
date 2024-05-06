@@ -30,4 +30,18 @@ in
       users.raf
     ];
   }
+  {
+    sig = sigs.rust;
+    leaders = with users; [ ];
+    members = with users; [
+      aprl
+      austreelis
+      bbjubjub
+      c8h4
+      eri
+      evanrichter
+      jalil
+      liketechnik
+    ];
+  }
 ]
