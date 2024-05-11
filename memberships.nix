@@ -1,8 +1,23 @@
 let
+  committees = import ./committees.nix;
   sigs = import ./sigs.nix;
   users = import ./users.nix;
 in
 [
+  {
+    committee = committees.security;
+    leaders = [
+      users.c8h4
+      users.dfh
+      users.jakehamilton
+    ];
+    members = [
+      users.axel
+      users.codingpuffin
+      users.isabel
+      users.minion
+    ];
+  }
   {
     sig = sigs.documentation;
     leaders = [
